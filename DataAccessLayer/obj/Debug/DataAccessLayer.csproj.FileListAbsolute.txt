@@ -15,3 +15,5 @@ C:\Users\menek\Desktop\Yeni klasör (2)\DataAccessLayer\obj\Debug\DataAccessLaye
 C:\Users\menek\Desktop\Yeni klasör (2)\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
 C:\Users\menek\Desktop\Yeni klasör (2)\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
 C:\Users\menek\Desktop\Yeni klasör (2)\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\menek\Desktop\Yeni klasör (2)\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writerabout.resources
+C:\Users\menek\Desktop\Yeni klasör (2)\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.addwritertitle.resources

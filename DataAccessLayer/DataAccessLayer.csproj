@@ -51,8 +51,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IAboutDal.cs" />
     <Compile Include="Abstract\ICategoryDal.cs" />
+    <Compile Include="Abstract\IContactDal.cs" />
+    <Compile Include="Abstract\IContentDal.cs" />
+    <Compile Include="Abstract\IHeadingDal.cs" />
     <Compile Include="Abstract\IRepository.cs" />
+    <Compile Include="Abstract\IWriterDal.cs" />
     <Compile Include="Concrete\Context.cs" />
     <Compile Include="Concrete\Repositories\GenericRepository.cs" />
     <Compile Include="EntityFramework\EfAboutDal.cs" />
@@ -64,6 +69,14 @@
     <Compile Include="Migrations\202301011310558_mig1.cs" />
     <Compile Include="Migrations\202301011310558_mig1.designer.cs">
       <DependentUpon>202301011310558_mig1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202301060943235_mig_writerabout.cs" />
+    <Compile Include="Migrations\202301060943235_mig_writerabout.designer.cs">
+      <DependentUpon>202301060943235_mig_writerabout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202301061024430_addwritertitle.cs" />
+    <Compile Include="Migrations\202301061024430_addwritertitle.designer.cs">
+      <DependentUpon>202301061024430_addwritertitle.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,6 +94,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202301011310558_mig1.resx">
       <DependentUpon>202301011310558_mig1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301060943235_mig_writerabout.resx">
+      <DependentUpon>202301060943235_mig_writerabout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301061024430_addwritertitle.resx">
+      <DependentUpon>202301061024430_addwritertitle.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
