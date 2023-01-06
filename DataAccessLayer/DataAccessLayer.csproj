@@ -78,6 +78,14 @@
     <Compile Include="Migrations\202301061024430_addwritertitle.designer.cs">
       <DependentUpon>202301061024430_addwritertitle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202301061942257_imagesize.cs" />
+    <Compile Include="Migrations\202301061942257_imagesize.designer.cs">
+      <DependentUpon>202301061942257_imagesize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202301062033434_writerstatus.cs" />
+    <Compile Include="Migrations\202301062033434_writerstatus.designer.cs">
+      <DependentUpon>202301062033434_writerstatus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -100,6 +108,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202301061024430_addwritertitle.resx">
       <DependentUpon>202301061024430_addwritertitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301061942257_imagesize.resx">
+      <DependentUpon>202301061942257_imagesize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301062033434_writerstatus.resx">
+      <DependentUpon>202301062033434_writerstatus.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
