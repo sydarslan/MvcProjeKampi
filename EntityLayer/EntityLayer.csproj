@@ -52,10 +52,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Concreate\About.cs" />
+    <Compile Include="Concreate\Admin.cs" />
     <Compile Include="Concreate\Category.cs" />
     <Compile Include="Concreate\Contact.cs" />
     <Compile Include="Concreate\Content.cs" />
     <Compile Include="Concreate\Heading.cs" />
+    <Compile Include="Concreate\ImageFile.cs" />
+    <Compile Include="Concreate\Message.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Concreate\Writer.cs" />
   </ItemGroup>

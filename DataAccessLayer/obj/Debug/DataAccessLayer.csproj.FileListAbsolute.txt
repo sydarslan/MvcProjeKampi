@@ -19,3 +19,9 @@ C:\Users\menek\Desktop\Yeni klasör (2)\DataAccessLayer\obj\Debug\DataAccessLaye
 C:\Users\menek\Desktop\Yeni klasör (2)\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.addwritertitle.resources
 C:\Users\menek\Desktop\Yeni klasör (2)\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.imagesize.resources
 C:\Users\menek\Desktop\Yeni klasör (2)\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.writerstatus.resources
+C:\Users\menek\Desktop\Yeni klasör (2)\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.contentstatus.resources
+C:\Users\menek\Desktop\Yeni klasör (2)\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.headingstatus.resources
+C:\Users\menek\Desktop\Yeni klasör (2)\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.messageclassadded.resources
+C:\Users\menek\Desktop\Yeni klasör (2)\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.contactdateadded.resources
+C:\Users\menek\Desktop\Yeni klasör (2)\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.imagefileadded.resources
+C:\Users\menek\Desktop\Yeni klasör (2)\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.admintableadded.resources
