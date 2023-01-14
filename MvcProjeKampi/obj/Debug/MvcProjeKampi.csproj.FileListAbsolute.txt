@@ -96,3 +96,7 @@ C:\Users\menek\Desktop\Yeni klasör (2)\MvcProjeKampi\bin\System.Threading.Tasks
 C:\Users\menek\Desktop\Yeni klasör (2)\MvcProjeKampi\bin\FluentValidation.xml
 C:\Users\menek\Desktop\Yeni klasör (2)\MvcProjeKampi\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\menek\Desktop\Yeni klasör (2)\MvcProjeKampi\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\menek\Desktop\Yeni klasör (2)\MvcProjeKampi\bin\PagedList.dll
+C:\Users\menek\Desktop\Yeni klasör (2)\MvcProjeKampi\bin\PagedList.Mvc.dll
+C:\Users\menek\Desktop\Yeni klasör (2)\MvcProjeKampi\bin\PagedList.xml
+C:\Users\menek\Desktop\Yeni klasör (2)\MvcProjeKampi\bin\PagedList.Mvc.xml
