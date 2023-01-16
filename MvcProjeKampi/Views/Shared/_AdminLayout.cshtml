@@ -49,7 +49,7 @@
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <!-- Add icons to the links using the .nav-icon class
-                             with font-awesome or any other icon font library -->
+    with font-awesome or any other icon font library -->
                         <li class="nav-item has-treeview">
                             <a href="/AdminCategory/Index" class="nav-link">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
@@ -67,12 +67,20 @@
                             </a>
                         </li>
                         <li class="nav-item has-treeview">
+                            <a href="/Content/GetAllContent" class="nav-link">
+                                <i class="nav-icon fas fa-book-reader"></i>
+                                <p>
+                                    Yazılar
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item has-treeview">
                             <a href="/Writer/Index" class="nav-link">
                                 <i class="nav-icon fas fa-copy"></i>
                                 <p>
                                     Yazarlar
                                 </p>
-                            </a>                           
+                            </a>
                         </li>
                         <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">
@@ -84,7 +92,7 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="pages/charts/chartjs.html" class="nav-link">
+                                    <a href="/Chart/Index" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Grafik 1</p>
                                     </a>
@@ -108,7 +116,16 @@
                                 <i class="nav-icon fas fa-tree"></i>
                                 <p>
                                     Hakkımızda
-                                    
+
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item has-treeview">
+                            <a href="/Heading/HeadingReport" class="nav-link">
+                                <i class="nav-icon fas fa-bars"></i>
+                                <p>
+                                    Raporlar
+
                                 </p>
                             </a>
                         </li>
@@ -116,18 +133,11 @@
                             <a href="/Contact/Index" class="nav-link">
                                 <i class="nav-icon fas fa-edit"></i>
                                 <p>
-                                    İletişim & Mesajlar                                  
+                                    İletişim & Mesajlar
                                 </p>
                             </a>
                         </li>
-                        <li class="nav-item has-treeview">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-table"></i>
-                                <p>
-                                    Yazılar
-                                </p>
-                            </a>
-                        </li>
+
                         <li class="nav-item">
                             <a href="pages/calendar.html" class="nav-link">
                                 <i class="nav-icon fas fa-calendar-alt"></i>
@@ -137,7 +147,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/gallery.html" class="nav-link">
+                            <a href="/Gallery/Index" class="nav-link">
                                 <i class="nav-icon far fa-image"></i>
                                 <p>
                                     Galeri
@@ -149,7 +159,7 @@
                                 <i class="nav-icon far fa-envelope"></i>
                                 <p>
                                     Hata Sayfaları
-                                   
+
                                 </p>
                             </a>
                         </li>
@@ -158,16 +168,16 @@
                                 <i class="nav-icon fas fa-book"></i>
                                 <p>
                                     Siteye Git
-                                    
+
                                 </p>
-                            </a>                     
+                            </a>
                         </li>
                         <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-door-closed"></i>
                                 <p>
                                     Çıkış Yap
-                                    
+
                                 </p>
                             </a>
                         </li>
@@ -193,7 +203,7 @@
     <!-- ./wrapper -->
     <!-- REQUIRED SCRIPTS -->
     <!-- jQuery -->
-    @*<script src="~/AdminLTE-3.0.4/plugins/jquery/jquery.min.js"></script>*@
+    <script src="~/AdminLTE-3.0.4/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap -->
     <script src="~/AdminLTE-3.0.4/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE -->

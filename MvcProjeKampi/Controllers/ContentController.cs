@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Concrete;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using System;
 using System.Collections.Generic;
@@ -8,6 +9,7 @@ using System.Web.Mvc;
 
 namespace MvcProjeKampi.Controllers
 {
+    [AllowAnonymous]
     public class ContentController : Controller
     {
         // GET: Content
@@ -18,6 +20,18 @@ namespace MvcProjeKampi.Controllers
 
             return View();
         }
+        public ActionResult GetAllContent(string p="")
+        {
+            
+            var values = cm.GetList(p);
+            //if (!string.IsNullOrEmpty(p))
+            //{
+            //    values = values.Where(y => y.ContentValue.Contains(p));
+            //}
+            //var values = c.Contents.ToList();
+            return View(values/*.ToList()*/);
+        }
+
         public ActionResult ContentByHeading(int id)
         {
             var contentvalues=cm.GetListByHeadingId(id);
