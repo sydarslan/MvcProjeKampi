@@ -14,7 +14,7 @@
         @*<th>Durum</th>*@
         <th>Sil</th>
         <th>Güncelle</th>
-        <th>Başlıklar</th>
+        
     </tr>
     @foreach (var item in Model)
     {
@@ -24,7 +24,7 @@
             @*<td>@item.CategoryStatus</td>*@
             <td><a href="/AdminCategory/CategoryDelete/@item.CategoryId" class="btn btn-danger">Sil</a></td>
             <td><a href="/AdminCategory/CategoryUpdate/@item.CategoryId" class="btn btn-warning">Güncelle</a></td>
-            <td><a href="#" class="btn btn-primary">Başlıklar</a></td>
+            
 
         </tr>
 

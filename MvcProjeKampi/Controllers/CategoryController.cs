@@ -42,6 +42,7 @@ namespace MvcProjeKampi.Controllers
             if (results.IsValid)
             {
                 cm.CategoryAdd(p);
+
                 return RedirectToAction("GetCategoryList");
             }
             else

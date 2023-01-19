@@ -3,12 +3,12 @@
     ViewBag.Title = "CategoryAdd";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <h3>Yeni Kategori Ekleme Sayfası</h3>
 
 <br />
 
-@using (Html.BeginForm("Kategori Ekle", "AdminCategory", FormMethod.Post))
+@using (Html.BeginForm("CategoryAdd", "AdminCategory", FormMethod.Post))
 {
     <div class="form-group">
         @Html.Label("Kategori Adı")
@@ -19,8 +19,12 @@
         @Html.TextAreaFor(x => x.CategoryDescription, new { @class = "form-control" })
         @Html.ValidationMessageFor(x => x.CategoryDescription)
         <br /> <br />
-        <button class="btn btn-info">Kaydet</button>
+        <button id="btnkaydet" class="btn btn-info">Kaydet</button>
     </div>
 }
-
+<script>
+    $('#btnkaydet').click(function () {
+        swal("Tebrkler!", "Ekleme işlemi başarılı bir şekilde gerçekleşti!", "success");
+    });
+</script>
 
